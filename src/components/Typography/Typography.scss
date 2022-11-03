@@ -1,0 +1,42 @@
+@import "../../styles/_colors.scss";
+
+.text {
+  font-family: "Fira Code", monospace;
+  margin: 0;
+}
+
+.text-variant-header {
+  font-size: 62px;
+}
+
+.text-variant-subheader {
+  font-size: 32px;
+}
+
+.text-variant-body {
+  font-size: 18px;
+}
+
+.text-variant-label {
+  font-size: 16px;
+}
+
+.text-variant-code {
+  font-size: 14px;
+}
+
+.text-color-white {
+  color: $white;
+}
+
+.text-color-lynch {
+  color: $lynch;
+}
+
+.text-color-indigo {
+  color: $indigo;
+}
+
+.text-color-coral {
+  color: $coral;
+}

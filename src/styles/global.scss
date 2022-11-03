@@ -1,0 +1,22 @@
+@import "./_colors.scss";
+
+@font-face {
+  font-family: 'Fira Code';
+  src: url(/fonts/FiraCode-VariableFont_wght.ttf) format("ttf");
+}
+
+body {
+  margin: 0;
+}
+
+.icon-white {
+  color: $white;
+}
+
+.icon-lynch {
+  color: $lynch;
+}
+
+.icon-turquoise {
+  color: $turquoise;
+}

@@ -1,0 +1,24 @@
+@import "../../styles/_colors.scss";
+
+.header {
+  display: flex;
+  border-bottom: 1px solid $grey-blue;
+  align-items: center;
+
+  .label {
+    width: 216px;
+    padding-left: 24px;
+  }
+}
+
+.tabs {
+  display: flex;
+  flex: 1;
+  border-left: 1px solid $grey-blue;
+
+  a:last-child {
+    border-right: none;
+    border-left: 1px solid $grey-blue;
+    margin-left: auto;
+  }
+}
